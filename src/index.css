@@ -1,5 +1,5 @@
 /* feel free to go on google fonts and change this to another font! */
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 /* == UI COMPONENTS == */
 /* buttons */
@@ -14,7 +14,7 @@ button,
   text-decoration: none;
   font-size: 1rem;
   /* if you change the font, don't forget to change it here too! */
-  font-family: "Quicksand", sans-serif;
+  font-family: "Playfair Display", sans-serif;
   padding: 0.6rem 1.2rem;
   vertical-align: middle;
   text-align: center;
@@ -30,7 +30,7 @@ button,
 [type="button"]:hover,
 [type="submit"]:hover,
 button:hover {
-  background-color: white;
+  background-color: rgb(247, 235, 250);
 }
 
 .buttons {
@@ -47,7 +47,8 @@ button:hover {
 
 html {
   box-sizing: border-box;
-  font-family: "Space Mono", monospace;
+  font-family: "Playfair Display", monospace;
+  color: #6a2f8d;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.4;
@@ -71,15 +72,15 @@ body {
 
 /* Anchors */
 a {
-  border-bottom: 3px solid #beebaa44;
-  color: #5a7913;
+  border-bottom: 3px solid #bd90cf5b;
+  color: #6a2f8d;
   font-weight: 800;
   font-size: 1rem;
   text-decoration: none;
 }
 
 a:hover {
-  background-color: #beebaa44;
+  background-color: #ebaae8e5;
 }
 
 /* paragraph */
@@ -88,7 +89,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: #0a5822;
+  color: #6a2f8d;
   margin-top: 2rem;
   line-height: 1.2;
 }
@@ -130,7 +131,7 @@ h4 {
 .masthead {
   margin: 3rem 0;
   padding-bottom: 1rem;
-  border-bottom: 6px solid rgba(231, 231, 231, 0.39);
+  border-bottom: 6px solid rgba(236, 141, 205, 0.39);
   min-width: 100%;
 }
 
@@ -143,7 +144,7 @@ h4 {
   margin-top: 2rem;
   padding: 0.5rem 1rem;
   text-align: center;
-  background-color: #5a7913;
+  background-color: #6a2f8d;
 }
 
 .nav-item {
@@ -166,11 +167,11 @@ h4 {
 .hof>div {
   margin: 3rem;
   padding: 2rem;
-  border: 1px solid green;
+  border: 1px solid purple;
 }
 
 .hof img {
-  border: 6px double rgb(125, 153, 125);
+  border: 6px double rgb(153, 125, 151);
 }
 
 .hof h4 {
@@ -179,6 +180,6 @@ h4 {
 
 blockquote {
   color: #eee;
-  background-color: #5a7913;
+  background-color: #6a2f8d;
   padding: 1rem;
 }

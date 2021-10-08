@@ -1,5 +1,4 @@
 const lesson_two = `
-
 H A I L E Y F L O
 hkflo@email.unc.edu  (980)322-6814
 linkedin.com/in/hailey-flo-286005207
